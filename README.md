@@ -75,6 +75,8 @@ This project analyzes a dataset of over 20,000 recipes from Epicurious, explorin
 
 - Build a recommendation system based on nutrition and ratings
 
+- Most of the recipe are considerd healthy, which is good for anyone considering following this data.
+
 🙏 Acknowledgments
 - Data Downloaded from: Kaggle
 
