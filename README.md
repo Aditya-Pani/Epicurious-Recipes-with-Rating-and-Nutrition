@@ -3,87 +3,85 @@
 This project analyzes a dataset of over 20,000 recipes from Epicurious, exploring how nutritional content, categories, and other features relate to recipe ratings. The goal is to identify what influences people's preferences for recipes and understand culinary patterns from a data-driven perspective.
 
 ## 📁 Dataset Information
-Source: Epicurious.com
+### Source: 
+- Epicurious.com
 
-Files used:
+### Files used:
 
-full_format_recipes.json – Complete dataset with ingredients and directions
+- full_format_recipes.json – Complete dataset with ingredients and directions
 
-epi_r.csv – Pre-processed version (used in this notebook) containing:
+- epi_r.csv – Pre-processed version (used in this notebook) containing:
 
-Recipe ratings
+* Recipe ratings
 
-Nutrition data (calories, fat, protein, etc.)
+* Nutrition data (calories, fat, protein, etc.)
 
-Sparse category dummy variables (e.g., dessert, vegetarian, etc.)
+* Sparse category dummy variables (e.g., dessert, vegetarian, etc.)
 
 ## 🔍 Objectives
-Understand how different nutritional components affect recipe ratings
+- Understand how different nutritional components affect recipe ratings
 
-Analyze trends across food categories (e.g., desserts, main courses, vegetarian dishes)
+- Analyze trends across food categories (e.g., desserts, main courses, vegetarian dishes)
 
-Visualize patterns in recipe popularity
+- Visualize patterns in recipe popularity
 
-Generate insights for healthy and popular food choices
+- Generate insights for healthy and popular food choices
 
 ## 🛠️ Tools & Libraries Used
-Python
+- Python
 
-pandas
+- pandas
 
-numpy
+- numpy
 
-matplotlib
+- matplotlib
 
-seaborn
+- seaborn
 
-plotly
+- plotly
 
-scikit-learn (if modeling included)
+- scikit-learn (if modeling included)
 
 ## 🔬 Notebook Highlights
-Data Cleaning:
+### Data Cleaning:
 
-Handled missing and duplicate entries
+- Handled missing and duplicate entries
 
-Converted categories into dummy variables (one-hot encoding)
+- Converted categories into dummy variables (one-hot encoding)
 
-Exploratory Data Analysis (EDA):
+### Exploratory Data Analysis (EDA):
 
-Rating distributions
+- Rating distributions
 
-Correlation between nutrition metrics and ratings
+- Correlation between nutrition metrics and ratings
 
-Category-based recipe trends
+- Category-based recipe trends
 
-Visualizations:
+### Visualizations:
 
-Heatmaps
+- Heatmaps
 
-Histograms and boxplots
+- Histograms and boxplots
 
-Category comparisons
+- Category comparisons
 
-(Optional) Predictive Modeling:
-
-Linear or logistic regression to estimate high-rated recipe likelihood
 
 ## 🧠 Insights & Takeaways
-Recipes with balanced fat and protein tend to receive higher ratings
+- Recipes with balanced fat and protein tend to receive higher ratings
 
-Certain categories like dessert or weeknight are consistently rated higher
+- Certain categories like dessert or weeknight are consistently rated higher
 
-Recipes low in calories or low fat do not necessarily get lower ratings, but extremes may affect preferences
+- Recipes low in calories or low fat do not necessarily get lower ratings, but extremes may affect preferences
 
 ## 🚀 Future Improvements
-Include ingredient-level analysis
+- Include ingredient-level analysis
 
-Add recipe creation dates to explore temporal food trends
+- Add recipe creation dates to explore temporal food trends
 
-Build a recommendation system based on nutrition and ratings
+- Build a recommendation system based on nutrition and ratings
 
 🙏 Acknowledgments
-Data Downloaded from: Kaggle
+- Data Downloaded from: Kaggle
 
-Dataset creator: HugoDarwood
+- Dataset creator: HugoDarwood
 
