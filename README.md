@@ -12,11 +12,11 @@ This project analyzes a dataset of over 20,000 recipes from Epicurious, explorin
 
 - epi_r.csv – Pre-processed version (used in this notebook) containing:
 
-* Recipe ratings
+** Recipe ratings
 
-* Nutrition data (calories, fat, protein, etc.)
+** Nutrition data (calories, fat, protein, etc.)
 
-* Sparse category dummy variables (e.g., dessert, vegetarian, etc.)
+** Sparse category dummy variables (e.g., dessert, vegetarian, etc.)
 
 ## 🔍 Objectives
 - Understand how different nutritional components affect recipe ratings
