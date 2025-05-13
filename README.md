@@ -4,6 +4,7 @@ This project analyzes a dataset of over 20,000 recipes from Epicurious, explorin
 
 ## 📁 Dataset Information
 Source: Epicurious.com
+
 Files used:
 
 full_format_recipes.json – Complete dataset with ingredients and directions
