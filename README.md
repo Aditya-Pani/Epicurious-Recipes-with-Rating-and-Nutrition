@@ -64,9 +64,11 @@ This project analyzes a dataset of over 20,000 recipes from Epicurious, explorin
 ## 🧠 Insights & Takeaways
 - Recipes with balanced fat and protein tend to receive higher ratings
 
+- Top rated recipe takes less time to prepare.
+
 - Certain categories like dessert or weeknight are consistently rated higher
 
-- Recipes low in calories or low fat do not necessarily get lower ratings, but extremes may affect preferences
+- Most of the recipe are considerd healthy, which is good for anyone considering following this data.
 
 ## 🚀 Future Improvements
 - Include ingredient-level analysis
@@ -75,9 +77,7 @@ This project analyzes a dataset of over 20,000 recipes from Epicurious, explorin
 
 - Build a recommendation system based on nutrition and ratings
 
-- Most of the recipe are considerd healthy, which is good for anyone considering following this data.
-
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 - Data Downloaded from: Kaggle
 
 - Dataset creator: HugoDarwood
